@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyHtml.html</title>
+	
+	<!-- 使用CSS样式 -->
+	<style type="text/css">
+		h1 {color:red;}
+		p {color:blue;}
+	</style>
+	<!-- 设置base属性，定义所有链接的默认目标地址 -->
+	<base href="http://www.w3cschool.cn/statics/images/w3c/" target="_blank">
+	<!-- keyword定义搜索引擎关键词，description定义描述内容，auther定义网站作者，refresh定义自动刷新时间 -->
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <h1>This is my HTML page.</h1> <br>
+    
+    <div id="container" style="width:500px">
+	<div id="header" style="background-color:#FFA500;">
+	<h1 style="margin-bottom:0;">Main Title of Web Page</h1></div>
+
+	<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+	<b>Menu</b><br>
+	HTML<br>
+	CSS<br>
+	JavaScript</div>
+
+	<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+	Content goes here</div>
+
+	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+	Copyright © W3Cschools.com</div>
+
+	</div>
+    
+    <img src="logo.png">这里只给出文件名，因为base属性已经设置了网址<br>
+    <a href="http://www.w3cschool.cn">W3Cschool</a>这个网址自动在新窗口打开，因为base已经设置了_blank<br>
+    
+    <p style="color:blue;margin-left:20px;">This is a paragraph.</p> 
+    <b>这个文本是加粗的</b><br/>
+    <strong>这个文本是加粗的</strong><br/>
+    <big>这个字体是放大的</big><br/>
+    <em>这个字体是放大的</em><br/>
+    <i>这个文本是斜体的</i><br/>
+    <small>这个文本是缩小的</small><br/>
+    这个标题包含
+    <sub>下标</sub><br>
+    这个文本包含
+    <sup>上标</sup><br/>
+    <abbr title="etcetra">etc.</abbr><br/>
+    <acronym title="World Wide Web">WWW</acronym><br/>
+    <address>
+    	Written by <a href="www.baidu.com">lxx</a><br/>
+    	Visit us at:<br/>
+    	Example.com<br/>
+    </address>
+    <p>该段文字从左向右显示</p>
+    <p><bdo dir="rtl">该段文字从右往左显示</bdo></p>
+    <!-- 默认会在原窗口打开链接，target属性设置为blank则会在新窗口打开 -->
+    <a href="https://www.w3cschool.cn/" target="_blank">Visit W3CSchool</a>
+    <br/>
+    
+    <!-- 创建书签 快速跳转 -->
+    <a id="tips">Useful Tips Section</a><br/>
+    <!-- <a href="#tips">Visit the Useful Tips Section</a><br/> -->
+    <a href="https//www.w3cschool.cn/html_links.html/#tips"> Visit the Useful Tips Section</a>
+    
+    <p>创建图片链接:
+	<a href="https://www.w3cschool.cn/html/html-tutorial.html">
+	<img src="/statics/images/course/smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+	<p>无边框的图片链接:
+	<a href="http://www.w3cschool.cn/html/html-tutorial.html">
+	<img border="0" src="/statics/images/course/smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+    <p>一个动图：
+    <!-- alt表示替换文本，当图片无法加载时显示 -->
+    <img alt="Computer man" src="/statics/images/w3c/eg_compman.gif"></p>
+    
+    <table border="1" >
+    <tr>
+    	<th>Name</th>
+    	<th>Addr</th>
+    </tr>
+	<tr>
+	<td>Row 1, cell 1</td>
+	<td>Row 1, cell 2</td>
+	</tr>
+	</table>
+	
+	<ol start="10">
+		<li>咖啡</li>
+		<li>茶</li>
+		<li>牛奶</li>
+	</ol>
+	<ul>
+		<li>咖啡</li>
+		<li>茶</li>
+		<li>牛奶</li>
+	</ul>
+	<dl>
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>-while cold drink</dd>
+	</dl>
+    
+  </body>
+</html>

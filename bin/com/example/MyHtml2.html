@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyHtml2.html</title>
+	
+	<base href="http://www.w3cschool.cn/statics/images/w3c/" target="_blank">
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    This is my HTML page. <br>
+    
+    <form action="">
+    Name:<input type="text" name="name"><br>
+    Age	:<input type="text" name="age"><br>
+    <input type="radio" name="sex" value="male">Male
+    <input type="radio" name="sex" value="female">Female<br>
+    <input type="checkbox" name="vehicle" value="Bike">I have a bile<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car<br>
+    <select name="cars">
+    	<option value="volvo">Volvo</option>
+    	<option value="saab">Saab</option>
+    	<option value="fiat">Fiat</option>
+    	<option value="audo">Audi</option> 
+    </select><br>
+    <input type="button" value="Hello World!">
+    </form>
+    
+    <form name="input" action="/statics/demosource/html_form_action.php" method="get">
+    <fieldset width=500>
+    <legend>Personal information:</legend>
+    	Username:<input type="text" name="user" value="lxx"><br>
+    	Password:<input type="password" name="password" vlaue="lxx"><br>
+    	<input type="submit" value="Submit">
+    </fieldset>
+    </form>
+    <p style="background-color:#FFFF00">通过十六进制设置背景颜色</p>
+    <p style="background-color:rgb(255,255,0)">通过rgb值设置背景颜色</p>
+    <p style="background-color:yellowgreen">通过颜色设置背景颜色</p>
+    copyright &copy; w3cschool<br>
+    &nbsp;空格 &lt;小于 &gt;大于 &amp;和号 &quot;引号 &pound;磅 &yen;人民币/日元 &euro;欧元
+     &copy;版权 &reg;注册商标 &trade;商标<br>
+    
+    <object width="400" height="50" data="/statics/demosource/bookmark.swf"></object>
+    <!-- <embed width="100%" height="200px" src="/statics/demosource/snippet.html"> -->
+<!--     <embed height="50" width="100" src="/statics/demosource/horse.mp3">
+    <object height="50" width="100" data="/statics/demosource/horse.mp3"></object> -->
+    <audio controls>
+    	<source src="/statics/demosource/horse.mp3" type="audio/mpeg">
+    	<!-- <source src="/statics/demosource/horse.ogg" type="audio/ogg"> -->
+    	Your browser does not support this audio format.
+    </audio>
+    <p><a href="/statics/demosource/horse.mp3">Play mp3</a></p>
+	<p><a href="/statics/demosource/liar.wav">Play wav</a></p>
+	<script src="http://mediaplayer.yahoo.com/latest"></script><br>
+	<!-- 必须把视频文件转换为多种形式，以便所有浏览器都能支持 -->
+	<video width="320" height="240" controls autoplay>
+		<source src="/statics/demosource/movie.ogg" type="video/ogg">
+		<source src="/statics/demosource/movie.mp4" type="video/mp4">
+		<source src="/statics/demosource/movie.webm" type="video/webm">
+	</video><br>
+<!-- 	<object width="320" height="240" data="/statics/demosource/movie.mp4" >
+    	<embed width="320" height="240" src="/statics/demosource/movie.swf">
+  	</object> -->
+	<a href="intro.swf">Play a video file</a> <br>
+	<embed src="http://player.youku.com/player.php/sid/XMzI2NTc4NTMy/v.swf" width="480" 
+		height="400" type="application/x-shockwave-flash"> </embed>
+    
+    <!-- iframe定义一个内联标签，用来在当前html文档中嵌入另一个文档 -->
+<!--     <iframe src="https://www.w3cschool.cn/" width="800" height="500">
+    	<p>您的浏览器不支持iframe标签。</p>
+    </iframe> -->
+    
+    
+  </body>
+</html>
